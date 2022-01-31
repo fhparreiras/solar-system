@@ -57,8 +57,8 @@
 }
 
 .mission-cards {
-  background-color: #2d3436;
-  border: 3px solid #b2bec3;
+  background-color: rgb(45, 52, 54);
+  border: 3px solid rgb(178, 190, 195);
   border-radius: 10px;
   color: white;
   display: flex;
