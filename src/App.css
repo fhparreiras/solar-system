@@ -1,3 +1,84 @@
 .App {
   text-align: center;
 }
+
+.header-h1 {
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.title-head {
+  font-size: 35px;
+  padding-bottom: 50px;
+}
+
+.planet-name {
+  font-size: 25px;
+}
+
+.main {
+  background-image: url('../src/images/background.png');
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.planet-card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.planet-card img {
+  border-radius: 50%;
+  max-width: 400px;
+}
+
+.planet-card img:hover {
+  max-width: 1000px;
+  transform: rotate(30deg);
+  transition: 5s ease-in;
+}
+
+.mission-card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 95vw;
+}
+
+.mission-cards {
+  background-color: #2d3436;
+  border: 3px solid #b2bec3;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  height: 250px;
+  justify-content: first baseline;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.mission-cards:hover {
+  background-color: white;
+  border: unset;
+  box-shadow: 0 0 1em whitesmoke;
+  color: black;
+  font-weight: 700;
+  height: 300px;
+  justify-content: center;
+  margin-top: -20px;
+  transition: 1s ease;
+  width: 220px;
+}
